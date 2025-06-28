@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lavin Medical Complex</title>
+  <title>Lavin Medical Complex - Your Health, Our Priority</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="La.png" type="image/png">
+  <link rel="icon" href="la.png" type="image/png">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts - Inter for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -17,297 +17,17 @@
   <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Smooth Scroll -->
   <style>
+    /* Inline styles for smooth scroll - can also be in style.css */
     html { scroll-behavior: smooth; }
   </style>
 </head>
 <body>
 
 <header class="navbar">
-  <div class="logo">LAVIN MEDICAL COMPLEX</div>
-  <nav>
-    <ul>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#doctors">Our Doctors</a></li>
-      <li><a href="#departments">Departments</a></li>
-      <li><a href="#pharmacy">Pharmacy</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
-</header>
-
-<section class="hero-section">
-  <div class="hero-text">
-    <h1>We're <span class="highlight">dedicated</span> to your <span class="highlight">health.</span></h1>
-    <p>At Lavin Medical Clinic, you receive the care you need 24/7 — either online or in person. Our experienced doctors are always ready for you.</p>
-    <div class="hero-buttons">
-      <a href="#contact" class="hero-button">Make an Appointment</a>
-      <a href="#doctors" class="hero-button secondary">Meet Our Doctors</a>
-    </div>
-  </div>
-  <div class="hero-image">
-    <img src="La.png" alt="Family healthcare image" class="hero-img" />
-  </div>
-</section>
-
-<section id="about" class="section fade-in">
-  <div class="section-container">
-    <h2>About Us</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <p>Lavin Medical Clinic is a premier healthcare provider offering world-class medical services with compassion and expertise. Founded in 2005, we have been serving our community with dedication and excellence.</p>
-        <p>Our team consists of highly qualified professionals committed to delivering personalized care to every patient.</p>
-        <ul class="features-list">
-          <li><i class="fas fa-check-circle"></i> 24/7 Emergency Services</li>
-          <li><i class="fas fa-check-circle"></i> State-of-the-art Facilities</li>
-          <li><i class="fas fa-check-circle"></i> Multilingual Staff</li>
-          <li><i class="fas fa-check-circle"></i> Patient-centered Care</li>
-        </ul>
-      </div>
-      <div class="about-image">
-        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Medical team">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="doctors" class="section fade-in">
-  <div class="section-container">
-    <h2>Our Doctors</h2>
-    <p class="section-subtitle">Meet our team of highly qualified specialists</p>
-    
-    <div class="doctors-grid">
-      <div class="doctor-card">
-        <div class="doctor-image">
-          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Dr. Sarah Johnson">
-        </div>
-        <div class="doctor-info">
-          <h3>Dr. Sarah Johnson</h3>
-          <p class="specialty">Cardiologist</p>
-          <p class="bio">With over 15 years of experience in cardiology, Dr. Johnson specializes in preventive care and complex heart conditions.</p>
-          <div class="doctor-meta">
-            <span><i class="fas fa-star"></i> 4.9 (120 reviews)</span>
-            <span><i class="fas fa-user-md"></i> 15 years experience</span>
-          </div>
-          <button class="book-btn" data-doctor="Dr. Sarah Johnson" data-specialty="Cardiology">Book Appointment</button>
-        </div>
-      </div>
-      
-      <div class="doctor-card">
-        <div class="doctor-image">
-          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1124&q=80" alt="Dr. Michael Chen">
-        </div>
-        <div class="doctor-info">
-          <h3>Dr. Michael Chen</h3>
-          <p class="specialty">Pediatrician</p>
-          <p class="bio">Dr. Chen has dedicated his career to pediatric care, focusing on child development and preventive medicine.</p>
-          <div class="doctor-meta">
-            <span><i class="fas fa-star"></i> 4.8 (95 reviews)</span>
-            <span><i class="fas fa-user-md"></i> 12 years experience</span>
-          </div>
-          <button class="book-btn" data-doctor="Dr. Michael Chen" data-specialty="Pediatrics">Book Appointment</button>
-        </div>
-      </div>
-      
-      <div class="doctor-card">
-        <div class="doctor-image">
-          <img src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Dr. Amina Khalid">
-        </div>
-        <div class="doctor-info">
-          <h3>Dr. Amina Khalid</h3>
-          <p class="specialty">Neurologist</p>
-          <p class="bio">Specializing in neurological disorders, Dr. Khalid brings cutting-edge treatments to her patients.</p>
-          <div class="doctor-meta">
-            <span><i class="fas fa-star"></i> 4.7 (85 reviews)</span>
-            <span><i class="fas fa-user-md"></i> 10 years experience</span>
-          </div>
-          <button class="book-btn" data-doctor="Dr. Amina Khalid" data-specialty="Neurology">Book Appointment</button>
-        </div>
-      </div>
-      
-      <div class="doctor-card">
-        <div class="doctor-image">
-          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Dr. Robert Wilson">
-        </div>
-        <div class="doctor-info">
-          <h3>Dr. Robert Wilson</h3>
-          <p class="specialty">Orthopedic Surgeon</p>
-          <p class="bio">With expertise in sports medicine, Dr. Wilson helps patients regain mobility and return to active lifestyles.</p>
-          <div class="doctor-meta">
-            <span><i class="fas fa-star"></i> 4.9 (110 reviews)</span>
-            <span><i class="fas fa-user-md"></i> 18 years experience</span>
-          </div>
-          <button class="book-btn" data-doctor="Dr. Robert Wilson" data-specialty="Orthopedics">Book Appointment</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="departments" class="section fade-in">
-  <div class="section-container">
-    <h2>Our Departments</h2>
-    <p class="section-subtitle">Comprehensive healthcare services for all your needs</p>
-    
-    <div class="departments-grid">
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-heartbeat"></i>
-        </div>
-        <h3>Cardiology</h3>
-        <p>Advanced heart care with cutting-edge diagnostic tools and treatment options.</p>
-      </div>
-      
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-baby"></i>
-        </div>
-        <h3>Pediatrics</h3>
-        <p>Specialized care for infants, children, and adolescents in a child-friendly environment.</p>
-      </div>
-      
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-tooth"></i>
-        </div>
-        <h3>Dental Care</h3>
-        <p>Complete oral health services including preventive, cosmetic, and restorative dentistry.</p>
-      </div>
-      
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-x-ray"></i>
-        </div>
-        <h3>Radiology</h3>
-        <p>Advanced imaging services including X-ray, MRI, CT scan, and ultrasound.</p>
-      </div>
-      
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-procedures"></i>
-        </div>
-        <h3>Surgery</h3>
-        <p>State-of-the-art surgical suites for both minor and major procedures.</p>
-      </div>
-      
-      <div class="department-card">
-        <div class="card-icon">
-          <i class="fas fa-eye"></i>
-        </div>
-        <h3>Ophthalmology</h3>
-        <p>Comprehensive eye care including vision correction and treatment of eye diseases.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="pharmacy" class="section fade-in">
-  <div class="section-container">
-    <h2>Our Pharmacy</h2>
-    <div class="pharmacy-content">
-      <div class="pharmacy-image">
-        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Pharmacy">
-      </div>
-      <div class="pharmacy-text">
-        <p>Our in-house pharmacy provides complete pharmaceutical services for your convenience. We offer:</p>
-        <ul class="pharmacy-features">
-          <li><i class="fas fa-check"></i> Full range of prescription medications</li>
-          <li><i class="fas fa-check"></i> Over-the-counter products</li>
-          <li><i class="fas fa-check"></i> Medication counseling</li>
-          <li><i class="fas fa-check"></i> Automatic refills</li>
-          <li><i class="fas fa-check"></i> Home delivery option</li>
-        </ul>
-        <p>Our licensed pharmacists are available to answer your questions and ensure you understand your medications.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact" class="section fade-in">
-  <div class="section-container">
-    <h2>Contact Us</h2>
-    <p class="section-subtitle">We're here to help you with all your healthcare needs</p>
-    
-    <div class="contact-container">
-      <div class="contact-info">
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <h3>Address</h3>
-          <p>123 Medical Center Drive<br>Erbil, Kurdistan</p>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fas fa-phone-alt"></i>
-          <h3>Phone</h3>
-          <p>+964 750 123 4567<br>+964 750 765 4321</p>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <h3>Email</h3>
-          <p>contact@lavinclinic.com<br>info@lavinclinic.com</p>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fas fa-clock"></i>
-          <h3>Hours</h3>
-          <p>24/7 Emergency Services<br>Clinic: 8AM - 8PM Daily</p>
-        </div>
-      </div>
-      
-      <div class="contact-form">
-        <h3>Appointment Request</h3>
-        <form id="appointmentForm">
-          <div class="form-group">
-            <input type="text" id="patientName" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" id="patientEmail" placeholder="Your Email" required>
-          </div>
-          <div class="form-group">
-            <input type="tel" id="patientPhone" placeholder="Phone Number" required>
-          </div>
-          <div class="form-group">
-            <select id="doctorSelect" required>
-              <option value="">Select Doctor</option>
-              <option value="Dr. Sarah Johnson">Dr. Sarah Johnson - Cardiology</option>
-              <option value="Dr. Michael Chen">Dr. Michael Chen - Pediatrics</option>
-              <option value="Dr. Amina Khalid">Dr. Amina Khalid - Neurology</option>
-              <option value="Dr. Robert Wilson">Dr. Robert Wilson - Orthopedics</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <input type="date" id="appointmentDate" required>
-          </div>
-          <div class="form-group">
-            <textarea id="patientMessage" placeholder="Your Message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="hero-button">Send Appointment Request</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-container">
-    <div class="footer-section">
-      <h3>LAVIN MEDICAL COMPLEX</h3>
-      <p>Comprehensive healthcare services with compassion and expertise.</p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </div>
-    
-    <div class="footer-section">
-      <h3>Quick Links</h3>
+  <div class="container">
+    <div class="logo">LAVIN MEDICAL COMPLEX</div>
+    <nav>
       <ul>
         <li><a href="#about">About Us</a></li>
         <li><a href="#doctors">Our Doctors</a></li>
@@ -315,49 +35,359 @@
         <li><a href="#pharmacy">Pharmacy</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero-section">
+    <div class="hero-content container">
+      <div class="hero-text animate-on-scroll">
+        <h1>We're <span class="highlight">dedicated</span> to your <span class="highlight">health.</span></h1>
+        <p>At Lavin Medical Clinic, you receive the comprehensive care you need 24/7 — either online or in person. Our experienced doctors are always ready to provide compassionate and expert medical attention.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Make an Appointment</a>
+          <a href="#doctors" class="btn btn-secondary">Meet Our Doctors</a>
+        </div>
+      </div>
+      <div class="hero-image animate-on-scroll">
+        <img src="https://placehold.co/600x400/E0F2F7/2e86de?text=Family+Healthcare" alt="Family healthcare image" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section animate-on-scroll">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-subtitle">Leading with compassion, innovation, and unwavering commitment to your well-being.</p>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Lavin Medical Clinic is a premier healthcare provider offering world-class medical services with compassion and expertise. Founded in 2005, we have been serving our community with dedication and excellence, constantly evolving to meet the highest standards of patient care.</p>
+          <p>Our team consists of highly qualified and empathetic professionals committed to delivering personalized care tailored to the unique needs of every patient. We believe in fostering a supportive and healing environment.</p>
+          <ul class="features-list">
+            <li><i class="fas fa-check-circle"></i> 24/7 Emergency Services</li>
+            <li><i class="fas fa-check-circle"></i> State-of-the-art Facilities & Technology</li>
+            <li><i class="fas fa-check-circle"></i> Multilingual & Diverse Staff</li>
+            <li><i class="fas fa-check-circle"></i> Patient-centered Care Approach</li>
+            <li><i class="fas fa-check-circle"></i> Advanced Diagnostic Capabilities</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://placehold.co/600x450/E0F2F7/2e86de?text=Medical+Team" alt="Medical team collaborating" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x450/E0F2F7/2e86de?text=Image+Error';" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="doctors" class="section animate-on-scroll">
+    <div class="container">
+      <h2 class="section-title">Our Esteemed Doctors</h2>
+      <p class="section-subtitle">Meet our team of highly qualified specialists, dedicated to providing exceptional care.</p>
+      
+      <div class="doctors-grid">
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-image">
+            <img src="https://placehold.co/400x250/F5F5F5/2e86de?text=Dr.+Sarah+Johnson" alt="Dr. Sarah Johnson" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/F5F5F5/2e86de?text=Image+Error';" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Sarah Johnson</h3>
+            <p class="specialty">Cardiologist</p>
+            <p class="bio">With over 15 years of experience in cardiology, Dr. Johnson specializes in preventive heart care, complex conditions, and patient education. Her approach is both empathetic and results-driven.</p>
+            <div class="doctor-meta">
+              <span><i class="fas fa-star"></i> 4.9 (120 reviews)</span>
+              <span><i class="fas fa-user-md"></i> 15 years experience</span>
+            </div>
+            <button class="book-btn" data-doctor="Dr. Sarah Johnson" data-specialty="Cardiology">Book Appointment</button>
+          </div>
+        </div>
+        
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-image">
+            <img src="https://placehold.co/400x250/F5F5F5/2e86de?text=Dr.+Michael+Chen" alt="Dr. Michael Chen" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/F5F5F5/2e86de?text=Image+Error';" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Michael Chen</h3>
+            <p class="specialty">Pediatrician</p>
+            <p class="bio">Dr. Chen has dedicated his career to pediatric care, focusing on holistic child development, preventive medicine, and creating a comfortable environment for young patients and their families.</p>
+            <div class="doctor-meta">
+              <span><i class="fas fa-star"></i> 4.8 (95 reviews)</span>
+              <span><i class="fas fa-user-md"></i> 12 years experience</span>
+            </div>
+            <button class="book-btn" data-doctor="Dr. Michael Chen" data-specialty="Pediatrics">Book Appointment</button>
+          </div>
+        </div>
+        
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-image">
+            <img src="https://placehold.co/400x250/F5F5F5/2e86de?text=Dr.+Amina+Khalid" alt="Dr. Amina Khalid" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/F5F5F5/2e86de?text=Image+Error';" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Amina Khalid</h3>
+            <p class="specialty">Neurologist</p>
+            <p class="bio">Specializing in complex neurological disorders, Dr. Khalid brings cutting-edge diagnostic techniques and personalized treatment plans to her patients, focusing on improving quality of life.</p>
+            <div class="doctor-meta">
+              <span><i class="fas fa-star"></i> 4.7 (85 reviews)</span>
+              <span><i class="fas fa-user-md"></i> 10 years experience</span>
+            </div>
+            <button class="book-btn" data-doctor="Dr. Amina Khalid" data-specialty="Neurology">Book Appointment</button>
+          </div>
+        </div>
+        
+        <div class="doctor-card animate-on-scroll">
+          <div class="doctor-image">
+            <img src="https://placehold.co/400x250/F5F5F5/2e86de?text=Dr.+Robert+Wilson" alt="Dr. Robert Wilson" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/F5F5F5/2e86de?text=Image+Error';" />
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Robert Wilson</h3>
+            <p class="specialty">Orthopedic Surgeon</p>
+            <p class="bio">With extensive expertise in sports medicine and joint replacement, Dr. Wilson helps patients regain mobility and return to active lifestyles through advanced surgical and non-surgical treatments.</p>
+            <div class="doctor-meta">
+              <span><i class="fas fa-star"></i> 4.9 (110 reviews)</span>
+              <span><i class="fas fa-user-md"></i> 18 years experience</span>
+            </div>
+            <button class="book-btn" data-doctor="Dr. Robert Wilson" data-specialty="Orthopedics">Book Appointment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="departments" class="section animate-on-scroll">
+    <div class="container">
+      <h2 class="section-title">Our Specialized Departments</h2>
+      <p class="section-subtitle">Comprehensive healthcare services designed to meet all your medical needs under one roof.</p>
+      
+      <div class="departments-grid">
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+          <h3>Cardiology</h3>
+          <p>Advanced heart care with cutting-edge diagnostic tools and personalized treatment options for various cardiovascular conditions.</p>
+        </div>
+        
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-baby"></i>
+          </div>
+          <h3>Pediatrics</h3>
+          <p>Specialized and compassionate care for infants, children, and adolescents, focusing on their growth, development, and overall well-being.</p>
+        </div>
+        
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-tooth"></i>
+          </div>
+          <h3>Dental Care</h3>
+          <p>Complete oral health services including preventive check-ups, cosmetic procedures, and restorative dentistry for a healthy, radiant smile.</p>
+        </div>
+        
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-x-ray"></i>
+          </div>
+          <h3>Radiology</h3>
+          <p>State-of-the-art imaging services including X-ray, MRI, CT scans, and ultrasound, providing precise diagnostics for effective treatment.</p>
+        </div>
+        
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-procedures"></i>
+          </div>
+          <h3>Surgery</h3>
+          <p>Modern surgical suites equipped for both minor and major procedures, ensuring patient safety and optimal recovery with expert surgical teams.</p>
+        </div>
+        
+        <div class="department-card animate-on-scroll">
+          <div class="card-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3>Ophthalmology</h3>
+          <p>Comprehensive eye care, from routine vision correction to advanced treatments for eye diseases, ensuring your visual health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pharmacy" class="section animate-on-scroll">
+    <div class="container">
+      <h2 class="section-title">Our Pharmacy</h2>
+      <p class="section-subtitle">Convenient and reliable pharmaceutical services within the complex.</p>
+      <div class="pharmacy-content">
+        <div class="pharmacy-image">
+          <img src="https://placehold.co/600x450/E0F2F7/2e86de?text=Pharmacy" alt="Modern Pharmacy Interior" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x450/E0F2F7/2e86de?text=Image+Error';" />
+        </div>
+        <div class="pharmacy-text">
+          <p>Our in-house pharmacy provides complete pharmaceutical services for your convenience and peace of mind. We are committed to ensuring you have easy access to necessary medications and professional advice.</p>
+          <ul class="pharmacy-features">
+            <li><i class="fas fa-check"></i> Full range of prescription medications</li>
+            <li><i class="fas fa-check"></i> Over-the-counter products and health supplies</li>
+            <li><i class="fas fa-check"></i> Personalized medication counseling by licensed pharmacists</li>
+            <li><i class="fas fa-check"></i> Convenient automatic refills service</li>
+            <li><i class="fas fa-check"></i> Home delivery option for eligible patients</li>
+            <li><i class="fas fa-check"></i> Dedicated support for complex prescriptions</li>
+          </ul>
+          <p>Our licensed pharmacists are always available to answer your questions, clarify dosages, and ensure you understand your medications and their proper use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section animate-on-scroll">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">We're here to help you with all your healthcare needs. Reach out to us today.</p>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item animate-on-scroll">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>123 Medical Center Drive<br>Erbil, Kurdistan Region<br>Iraq</p>
+          </div>
+          
+          <div class="contact-item animate-on-scroll">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Phone</h3>
+            <p>+964 750 123 4567<br>+964 750 765 4321</p>
+          </div>
+          
+          <div class="contact-item animate-on-scroll">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>contact@lavinclinic.com<br>info@lavinclinic.com</p>
+          </div>
+          
+          <div class="contact-item animate-on-scroll">
+            <i class="fas fa-clock"></i>
+            <h3>Hours</h3>
+            <p>24/7 Emergency Services<br>Clinic: 8:00 AM - 8:00 PM Daily</p>
+          </div>
+        </div>
+        
+        <div class="contact-form animate-on-scroll">
+          <h3>Request an Appointment</h3>
+          <form id="appointmentForm">
+            <div class="form-group">
+              <input type="text" id="patientName" placeholder=" " required aria-label="Your Name">
+              <label for="patientName">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="patientEmail" placeholder=" " aria-label="Your Email (Optional)">
+              <label for="patientEmail">Your Email (Optional)</label>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="patientPhone" placeholder=" " required aria-label="Phone Number">
+              <label for="patientPhone">Phone Number</label>
+            </div>
+            <div class="form-group">
+              <select id="doctorSelect" required aria-label="Select Doctor">
+                <option value="" disabled selected>Select Doctor</option>
+                <option value="Dr. Sarah Johnson">Dr. Sarah Johnson - Cardiology</option>
+                <option value="Dr. Michael Chen">Dr. Michael Chen - Pediatrics</option>
+                <option value="Dr. Amina Khalid">Dr. Amina Khalid - Neurology</option>
+                <option value="Dr. Robert Wilson">Dr. Robert Wilson - Orthopedics</option>
+                <option value="First Available">First Available Doctor</option>
+              </select>
+              <label for="doctorSelect">Choose a Doctor</label>
+            </div>
+            <div class="form-group">
+              <input type="date" id="appointmentDate" required aria-label="Preferred Appointment Date">
+              <label for="appointmentDate">Preferred Date</label>
+            </div>
+            <div class="form-group">
+              <textarea id="patientMessage" placeholder=" " rows="5" required aria-label="Your Message/Reason for Visit"></textarea>
+              <label for="patientMessage">Your Message / Reason for Visit</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Appointment Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section animate-on-scroll">
+      <h3>LAVIN MEDICAL COMPLEX</h3>
+      <p>Comprehensive healthcare services with compassion and expertise. Your well-being is our utmost priority.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
     </div>
     
-    <div class="footer-section">
-      <h3>Services</h3>
+    <div class="footer-section animate-on-scroll">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#doctors">Our Doctors</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#pharmacy">Pharmacy</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="sign-in.html">Sign In</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section animate-on-scroll">
+      <h3>Our Services</h3>
       <ul>
         <li><a href="#">Emergency Care</a></li>
         <li><a href="#">Primary Care</a></li>
         <li><a href="#">Specialty Care</a></li>
         <li><a href="#">Diagnostic Services</a></li>
+        <li><a href="#">Telemedicine</a></li>
+        <li><a href="#">Preventive Health</a></li>
       </ul>
     </div>
     
-    <div class="footer-section">
+    <div class="footer-section animate-on-scroll">
       <h3>Newsletter</h3>
-      <p>Subscribe to our newsletter for health tips and updates.</p>
+      <p>Subscribe to our newsletter for the latest health tips, news, and clinic updates.</p>
       <form class="newsletter-form">
-        <input type="email" placeholder="Your Email" required>
-        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        <input type="email" placeholder="Your Email Address" required aria-label="Email for newsletter">
+        <button type="submit" aria-label="Subscribe to newsletter"><i class="fas fa-paper-plane"></i></button>
       </form>
     </div>
   </div>
   
   <div class="footer-bottom">
-    <p>&copy; 2025 Lavin Medical Clinic. All rights reserved.</p>
+    <p>&copy; 2025 Lavin Medical Complex. All rights reserved.</p>
   </div>
 </footer>
 
 <!-- Appointment Modal -->
-<div id="appointmentModal" class="modal">
+<div id="appointmentModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="confirmationMessage">
   <div class="modal-content">
-    <span class="close-modal">&times;</span>
-    <h3>Appointment Confirmation</h3>
+    <span class="close-modal" role="button" aria-label="Close appointment confirmation modal">&times;</span>
+    <h3 id="modalTitle">Appointment Confirmation</h3>
     <p id="confirmationMessage"></p>
+    <button class="btn btn-primary close-modal-btn" aria-label="OK, close modal">OK</button>
+    <a id="whatsappNotificationLink" href="#" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; display: none;">Notify Secretary via WhatsApp</a>
   </div>
 </div>
 
 <!-- Scroll to Top Button -->
-<button id="scrollToTop" class="scroll-to-top">
+<button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top of page">
   <i class="fas fa-arrow-up"></i>
 </button>
 
 <script>
-  // Scroll to top button
+  // Dynamic current year for footer (optional, good practice)
+  document.addEventListener('DOMContentLoaded', () => {
+    const yearSpan = document.querySelector('.footer-bottom p');
+    if (yearSpan) {
+      yearSpan.innerHTML = `&copy; ${new Date().getFullYear()} Lavin Medical Complex. All rights reserved.`;
+    }
+  });
+
+  // Scroll to top button functionality
   const scrollToTopBtn = document.getElementById('scrollToTop');
   
   window.addEventListener('scroll', () => {
@@ -377,51 +407,83 @@
   
   // Mobile menu toggle
   const menuToggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('nav ul');
-  
+  const navUl = document.querySelector('.navbar nav ul'); // Corrected variable name
+  const navLinks = document.querySelectorAll('.navbar nav ul li a'); // Get all nav links
+
   menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('active');
+    navUl.classList.toggle('active');
     menuToggle.querySelector('i').classList.toggle('fa-times');
+    menuToggle.querySelector('i').classList.toggle('fa-bars'); // Toggle back to bars
+  });
+
+  // Close mobile menu when a link is clicked
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navUl.classList.remove('active');
+      menuToggle.querySelector('i').classList.remove('fa-times');
+      menuToggle.querySelector('i').classList.add('fa-bars');
+    });
   });
   
-  // Animation on scroll
-  const fadeElements = document.querySelectorAll('.fade-in');
-  
-  const fadeInOnScroll = () => {
-    fadeElements.forEach(element => {
-      const elementTop = element.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
-      
-      if (elementTop < windowHeight - 100) {
-        element.style.opacity = '1';
-        element.style.transform = 'translateY(0)';
+  // Animation on scroll using IntersectionObserver
+  const animateElements = document.querySelectorAll('.animate-on-scroll');
+  const observerOptions = {
+    root: null, // viewport
+    rootMargin: '0px',
+    threshold: 0.2 // Element is 20% visible
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target); // Stop observing once animated
       }
     });
-  };
-  
-  window.addEventListener('scroll', fadeInOnScroll);
-  window.addEventListener('load', fadeInOnScroll);
-  
-  // Book appointment buttons
+  }, observerOptions);
+
+  animateElements.forEach(element => {
+    observer.observe(element);
+  });
+
+  // Sticky navbar on scroll
+  window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Book appointment buttons & modal
   const bookButtons = document.querySelectorAll('.book-btn');
   const doctorSelect = document.getElementById('doctorSelect');
   const appointmentForm = document.getElementById('appointmentForm');
   const modal = document.getElementById('appointmentModal');
-  const closeModal = document.querySelector('.close-modal');
+  const closeModalButtons = document.querySelectorAll('.close-modal, .close-modal-btn'); // Select both close buttons
   const confirmationMessage = document.getElementById('confirmationMessage');
+  const whatsappNotificationLink = document.getElementById('whatsappNotificationLink'); // New element
   
+  // Secretary's WhatsApp number (replace with actual number including country code, no +, no spaces)
+  const secretaryWhatsappNumber = '9647501234567'; // Example: +964 750 123 4567 becomes 9647501234567
+
   bookButtons.forEach(button => {
     button.addEventListener('click', () => {
       const doctorName = button.getAttribute('data-doctor');
       doctorSelect.value = doctorName;
-      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      // Scroll to contact form smoothly
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Optionally focus on the form or a specific input
+      document.getElementById('patientName').focus();
     });
   });
   
-  // Form submission
+  // Form submission (simulated for front-end only)
   appointmentForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
+    // Simulate form data collection
     const formData = {
       name: document.getElementById('patientName').value,
       email: document.getElementById('patientEmail').value,
@@ -431,38 +493,83 @@
       message: document.getElementById('patientMessage').value
     };
     
-    // In a real application, you would send this data to your server
-    // For this demo, we'll just show a confirmation message
+    // Display confirmation message in the modal
     confirmationMessage.innerHTML = `
       Thank you, <strong>${formData.name}</strong>!<br><br>
-      Your appointment request with <strong>${formData.doctor}</strong> 
-      for <strong>${formData.date}</strong> has been received.<br><br>
-      We will contact you shortly at <strong>${formData.phone}</strong> or 
-      <strong>${formData.email}</strong> to confirm your appointment.
+      Your appointment request with <strong>${formData.doctor}</strong> for <strong>${formData.date}</strong> has been received.<br><br>
+      We will contact you shortly at <strong>${formData.phone}</strong> or <strong>${formData.email || 'your provided contact details'}</strong> to confirm your appointment.
     `;
     
-    modal.style.display = 'block';
+    // Construct WhatsApp message
+    const whatsappMessage = encodeURIComponent(
+      `New Appointment Request:\n\n` +
+      `Patient Name: ${formData.name}\n` +
+      `Doctor: ${formData.doctor}\n` +
+      `Date: ${formData.date}\n` +
+      `Patient Phone: ${formData.phone}\n` +
+      `Patient Email: ${formData.email || 'N/A'}\n` +
+      `Message: ${formData.message}`
+    );
+
+    // Set WhatsApp link href and display
+    whatsappNotificationLink.href = `https://wa.me/${secretaryWhatsappNumber}?text=${whatsappMessage}`;
+    whatsappNotificationLink.style.display = 'block'; // Show the WhatsApp button
+
+    modal.classList.add('show'); // Use class to control modal visibility and animation
     appointmentForm.reset();
+    // Blur any focused input to make sure floating labels reset
+    document.activeElement.blur();
   });
   
   // Close modal
-  closeModal.addEventListener('click', () => {
-    modal.style.display = 'none';
+  closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      modal.classList.remove('show'); // Use class to control modal visibility
+      whatsappNotificationLink.style.display = 'none'; // Hide WhatsApp button when modal closes
+    });
   });
-  
+
+  // Close modal when clicking outside content
   window.addEventListener('click', (e) => {
     if (e.target === modal) {
-      modal.style.display = 'none';
+      modal.classList.remove('show');
+      whatsappNotificationLink.style.display = 'none'; // Hide WhatsApp button when modal closes
     }
   });
-  
-  // Sticky navbar on scroll
-  window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
+
+  // Enhance form label behavior for initial state (if inputs are pre-filled or have a value)
+  document.querySelectorAll('.form-group input, .form-group select, .form-group textarea').forEach(input => {
+    // On load, check if input has value and apply active label style
+    if (input.value !== '' || input.checkValidity()) { // checkValidity for date/email types
+        const label = input.nextElementSibling;
+        if (label && label.tagName === 'LABEL') {
+            label.style.top = '-0.6rem';
+            label.style.left = '0.8rem';
+            label.style.fontSize = '0.85rem';
+            label.style.color = 'var(--primary-color)';
+            label.style.transform = 'scale(0.9)';
+        }
+    }
+    // For select elements, handle when an option is selected (value is not empty)
+    if (input.tagName === 'SELECT') {
+        input.addEventListener('change', () => {
+            const label = input.nextElementSibling;
+            if (label && label.tagName === 'LABEL') {
+                if (input.value !== '') {
+                    label.style.top = '-0.6rem';
+                    label.style.left = '0.8rem';
+                    label.style.fontSize = '0.85rem';
+                    label.style.color = 'var(--primary-color)';
+                    label.style.transform = 'scale(0.9)';
+                } else {
+                    label.style.top = '1.1rem';
+                    label.style.left = '1rem';
+                    label.style.fontSize = '1rem';
+                    label.style.color = 'var(--text-light)';
+                    label.style.transform = 'none';
+                }
+            }
+        });
     }
   });
 </script>
